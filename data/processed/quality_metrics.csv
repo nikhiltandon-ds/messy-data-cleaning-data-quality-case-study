@@ -1,0 +1,11 @@
+Metric,Value
+Raw rows,20000
+Clean rows,15480
+Rows removed,4520
+Retention rate,0.774
+Exact duplicate rows,5
+Missing CustomerID rows,3995
+Cancellation rows,199
+Non-positive Quantity rows,177
+Non-positive UnitPrice rows,250
+Missing/invalid InvoiceDate rows,34

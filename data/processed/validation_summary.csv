@@ -1,0 +1,7 @@
+Check,Before,After,Expected/Rule,Status
+Row count,20000,15480,After = Before - removals,PASS
+Positive quantity,19823,15480,All cleaned rows > 0,PASS
+Positive unit price,19750,15480,All cleaned rows > 0,PASS
+CustomerID populated,16005,15480,All cleaned rows populated,PASS
+Cancellation invoices,199,0,0 after cleaning,PASS
+Revenue tie-out,1731283.05,1730854.45,Should match eligible raw population,PASS
