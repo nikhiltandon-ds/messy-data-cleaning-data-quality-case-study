@@ -1,0 +1,8 @@
+-- Cleaning rule applied in this case study
+-- 1. Drop exact duplicate records
+-- 2. Remove cancellation invoices (InvoiceNo starts with C)
+-- 3. Remove rows with missing CustomerID
+-- 4. Remove Quantity <= 0
+-- 5. Remove UnitPrice <= 0
+-- 6. Parse supported date formats; reject missing/invalid dates
+-- 7. Standardize Country and Description text
